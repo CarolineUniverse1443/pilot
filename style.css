@@ -1,0 +1,93 @@
+@font-face
+{
+	font-family: 'Gotham Pro';
+	src: url('./fonts/Gotham_Pro/gothampro.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Gotham Pro Medium';
+	src: url('./fonts/Gotham_Pro/gothampro_medium.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Gotham Pro';
+	font-size: 16px;
+	background: #fff;
+}
+
+
+.container
+{
+	max-width: 1280px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 10px;
+}
+
+.checkouts
+{
+	width: 100%;
+	padding-top: 100px;
+}
+
+h2
+{
+	font-family: 'Gotham Pro Medium';
+	font-size: 32px;
+	font-weight: 400;
+}
+
+h3
+{
+	font-family: 'Gotham Pro Medium';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.checkouts__list
+{
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+li { list-style-type: none; }
+
+.checkout__list-item
+{
+	max-width: 404px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.checkout__list-item > img
+{
+	width: 211px;
+	height: 346px;
+	margin-bottom: 20px;
+}
+
+.checkout__list-item > p
+{
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+}
