@@ -201,4 +201,43 @@ li { list-style-type: none; }
 
 /* parallax block */
 
-.padding { padding: 35px 0 110px; }
+.padding { padding: 35px 0 45px; }
+
+/* advantage block */
+.advantage
+{
+	background: #FAFAFA;
+	padding: 110px 0;
+}
+
+.advantage__list
+{
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 85px;
+}
+
+.advantage__list-item
+{
+	max-width: 371px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	/*margin-bottom: 56px;*/
+}
+
+.advantage__list-item > h3
+{
+	margin-top: 43px;
+	font-size: 20px;
+}
+
+.advantage__list-item > p
+{
+	margin-top: 43px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.advantage__list-item-short {max-width: 349px;}
