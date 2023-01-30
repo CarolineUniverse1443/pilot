@@ -31,17 +31,26 @@ body
 
 .container
 {
-	max-width: 1280px;
+	max-width: 1310px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 10px;
 }
 
+/* checkouts block */
+.checkouts__wrap
+{
+	max-width: 1280px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .checkouts
 {
 	width: 100%;
-	padding-top: 100px;
+	padding: 65px 0;
 }
 
 h2
@@ -91,3 +100,107 @@ li { list-style-type: none; }
 	font-size: 14px;
 	line-height: 30px;
 }
+
+/* select block */
+
+.select__wrap
+{
+	width: 1325px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.select
+{
+	width: 100%;
+	padding: 65px 0;
+}
+
+.select__desc
+{
+	max-width: 682px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.select__desc > h2
+{
+	height: 55px;
+}
+
+.select__desc > p
+{
+	margin-top: 4px;
+	height: 105px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.select__manual
+{
+	max-width: 570px;
+	height: 379px;
+	width: 100%;
+	border-left: 2px solid #FF0000;
+	margin-left: 80px;
+}
+
+.select__manual a
+{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color:  #333333;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+
+.select__manual a:hover
+{
+	text-decoration-line: underline;
+	color: #004BBC;
+}
+
+.select__manual-stage
+{
+	position: relative;
+	margin-top: 50px;
+}
+
+.select__manual-stage:after
+{
+
+	display: flex;
+	background: #ec0235;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 23px;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -6px;
+    left: -18px;
+}
+
+.select__manual-stage-01
+{
+	margin-top: 25px;
+	margin-bottom: 53px;
+}
+
+.select__manual-stage-05 {margin-top: 52px;}
+
+.select__manual-stage-01:after {content: '01';}
+.select__manual-stage-02:after {content: '02';}
+.select__manual-stage-03:after {content: '03';}
+.select__manual-stage-04:after {content: '04';}
+.select__manual-stage-05:after {content: '05';}
