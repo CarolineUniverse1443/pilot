@@ -47,7 +47,7 @@ body
 	margin-left: auto;
 }
 
-.checkouts
+section
 {
 	width: 100%;
 	padding: 65px 0;
@@ -111,12 +111,6 @@ li { list-style-type: none; }
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-}
-
-.select
-{
-	width: 100%;
-	padding: 65px 0;
 }
 
 .select__desc
@@ -204,3 +198,7 @@ li { list-style-type: none; }
 .select__manual-stage-03:after {content: '03';}
 .select__manual-stage-04:after {content: '04';}
 .select__manual-stage-05:after {content: '05';}
+
+/* parallax block */
+
+.padding { padding: 35px 0 110px; }
