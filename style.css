@@ -39,6 +39,7 @@ body
 }
 
 /* checkouts block */
+
 .checkouts__wrap
 {
 	max-width: 1280px;
@@ -73,6 +74,7 @@ h3
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 li { list-style-type: none; }
@@ -281,15 +283,93 @@ li { list-style-type: none; }
 	margin: auto;
 	display: block;
 	text-decoration: none;
+	/*font-family: "Gotham Pro Medium";*/
+	font-weight: 600;
 	margin-top: 111px;
 	margin-bottom: 45px;
 	padding-top: 18px;
 	padding-bottom: 25px;
-	width: 441px;
+	max-width: 441px;
+	width: 100%;
 	background: #E3143A;
 	color: #fff;
 	font-size: 22px;
 	text-align: center;
 	border: none;
 	cursor: pointer;
+}
+
+/* profit block */
+.profit
+{
+	background: #FAFAFA;
+	padding: 92px 0;
+}
+
+.profit__wrap
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*flex-wrap: wrap;*/
+}
+
+.profit__program
+{
+	max-width: 826px;
+	width: 100%;
+}
+
+.profit__program > h2
+{
+	max-width: 687px;
+	width: 100%;
+	line-height: 42px;
+	margin-bottom: 35px;
+}
+
+.profit__program > p
+{
+	margin-bottom: 25px;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.profit__btn
+{
+	margin: auto;
+	display: inline-block;
+	text-decoration: none;
+	/*font-family: "Gotham Pro Medium";*/
+	font-weight: 600;
+	margin-top: 20px;
+	margin-right: 27px;
+	padding-top: 20px;
+	padding-bottom: 23px;
+	width: 317px;
+	background: #E3143A;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.profit__btn-license
+{
+	background: #FAFAFA;
+	border: 1px solid #E3143A;
+	color: #292D38;
+}
+
+@media (max-width: 768px)
+{
+	.container
+	{
+		text-align: center;
+	}
+	.select__wrap
+	{
+		flex-wrap: wrap;
+	}
 }
