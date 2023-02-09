@@ -47,3 +47,28 @@ body
 	margin-left: auto;
 	padding: 0 10px;
 }
+
+/* compare block */
+.compare
+{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 63px;
+}
+
+h1
+{
+	font-family: 'Gotham Pro Medium';
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.compare p
+{
+	margin: 0 auto;
+	max-width: 639px;
+	width: 100%;
+	margin-top: 49px;
+	font-size: 21px;
+	line-height: 33px;
+}
